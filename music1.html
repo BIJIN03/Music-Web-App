@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music WebApp</title>
+    <link rel="stylesheet" href="music1.css">
+</head>
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="music-player">
+        <a href="/music2.html" class="back">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#7fc8a9" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg>
+        </a>
+        <h1 class="music-name">Song one</h1>
+        <p class="artist-name">Artist</p>
+        <div class="disk"></div>
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>
+        </div>
+        <div class="controls">
+            <button class="btn backward-btn"><img src="/backward.jpg" alt=""></button>
+            <button class="play-btn pause">
+                <span></span>
+                <span></span>
+            </button>
+            <button class="btn forward-btn"><img src="/forward.jpg" alt=""></button>
+        </div>
+    </div>
+    <script src="music3.js"></script>
+    <script src="music1.js"></script>
+</body>
+</html>
